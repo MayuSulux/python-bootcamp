@@ -1,0 +1,15 @@
+mark = int(input("What is your mark?. "))
+
+if mark>100 or mark<0:
+    print("Invalid mark!")
+elif mark >=90:
+    print("Excellent!")
+elif mark >= 80 : 
+    print("Very good!") 
+elif mark >= 70 : 
+    print("good!")
+elif mark >= 60 : 
+    print("Pass!") 
+else :
+    print("Keep Practicing!")
+
